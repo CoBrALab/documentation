@@ -4,6 +4,7 @@ wget -c http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/bic-mni-models-0.1
 wget -c http://ftp.us.debian.org/debian/pool/main/libj/libjpeg8/libjpeg8_8d-1+deb7u1_amd64.deb
 wget -c http://ftp.us.debian.org/debian/pool/main/t/tiff3/libtiff4_3.9.6-11_amd64.deb
 sudo apt-get update
+sudo apt-get -y dist-upgrade
 sudo apt-get -y --force-yes install libc6 libstdc++6 imagemagick perl freeglut3 libgl1-mesa-glx libxcb1 libxdmcp6 libx11-6 libxext6 libxau6 libuuid1 libjpeg62 libexpat1 libtiff5
 sudo dpkg -i *.deb
 sudo apt-get -f -y --force-yes install 
