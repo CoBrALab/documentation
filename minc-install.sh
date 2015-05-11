@@ -3,6 +3,7 @@ wget -c http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.0
 wget -c http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/bic-mni-models-0.1.1-20120421.deb
 wget -c http://ftp.us.debian.org/debian/pool/main/libj/libjpeg8/libjpeg8_8d-1+deb7u1_amd64.deb
 wget -c http://ftp.us.debian.org/debian/pool/main/t/tiff3/libtiff4_3.9.6-11_amd64.deb
+wget -c http://download1.rstudio.org/rstudio-0.98.1103-amd64.deb
 wget -c https://github.com/Mouse-Imaging-Centre/RMINC/archive/v1.2.4.9.tar.gz
 sudo apt-get update
 sudo apt-get -y dist-upgrade
