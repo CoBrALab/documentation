@@ -1,0 +1,17 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 3841867f-8771-4dc2-9bac-9f92aa8d2754
+  title: CoBrALab Documentation
+  description: Documentation of the philosophy of the Computational Brain Anatomy Lab of
+    Dr. M. Mallar Chakravarty at the Douglas Mental Health University Institute, McGill University
+  # keywords: []
+  # authors: []
+  github: https://github.com/CoBrALab/documentation
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+
+site:
+  template: book-theme
+  options:
+    favicon: images/favicon.ico
+    logo: images/logo.png

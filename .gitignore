@@ -1,0 +1,4 @@
+.venv
+
+# MyST build outputs
+_build
