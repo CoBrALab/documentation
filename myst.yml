@@ -15,7 +15,10 @@ project:
     - file: site/intro.md
     - title: Introduction
       children:
-        - file: site/01-philosophy.md
+        - file: site/intro/01-philosophy.md
+    - title: Quality Control
+      children:
+        - file: site/qc/01-philosophy.md
 
 site:
   template: book-theme
