@@ -23,7 +23,7 @@ project:
       children:
         - file: site/stats/01-philosophy.md
         - file: site/stats/02-intro.md
-        - file: site/stats/03-interpreation.md
+        - file: site/stats/03-interpretation.md
         - file: site/stats/04-covariates.md
         - file: site/stats/05-interactions.md
         - file: site/stats/06-random.md
