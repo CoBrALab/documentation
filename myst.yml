@@ -19,6 +19,18 @@ project:
     - title: Quality Control
       children:
         - file: site/qc/01-philosophy.md
+    - title: Stats
+      children:
+        - file: site/stats/01-philosophy.md
+        - file: site/stats/02-intro.md
+        - file: site/stats/03-interpreation.md
+        - file: site/stats/04-covariates.md
+        - file: site/stats/05-interactions.md
+        - file: site/stats/06-random.md
+        - file: site/stats/07-nonlinear.md
+        - file: site/stats/08-fdr.md
+        - file: site/stats/09-advanced.md
+        - file: site/stats/10-examples.md
 
 site:
   template: book-theme
